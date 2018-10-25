@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <Button
+        android:id="@+id/perfil_button"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="201dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="37dp"
+        android:text="@perfil"
+        app:layout_constraintBottom_toTopOf="@+id/salud_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Ir a perfil" />
+
+    <Button
+        android:id="@+id/salud_button"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="132dp"
+        android:text="@Salud"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Salud" />
+
+    <Button
+        android:id="@+id/logoff_button"
+        android:layout_width="96dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="18dp"
+        android:text="@logoff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditos_button"
+        tools:text="LogOff" />
+
+    <Button
+        android:id="@+id/creditos_button"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="366dp"
+        android:text="@Creditos"
+        app:layout_constraintBottom_toTopOf="@+id/logoff_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Creditos" />
+
+    <Button
+        android:id="@+id/notificaciones_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="311dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="104dp"
+        android:text="@notificacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salud_button"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Notificaciones" />
+
+    <Button
+        android:id="@+id/sitios_button"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="32dp"
+        android:text="@sitiosweb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salud_button"
+        tools:text="SitiosWeb" />
+
+</android.support.constraint.ConstraintLayout>

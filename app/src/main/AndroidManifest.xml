@@ -26,10 +26,11 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".menu" />
+        <activity android:name=".introapp" />
+        <activity android:name=".signup"></activity>
     </application>
 
 </manifest>
