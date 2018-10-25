@@ -34,5 +34,6 @@ public class introapp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_introapp);
         logButton();
+        signButton();
     }
 }

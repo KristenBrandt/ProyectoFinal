@@ -26,11 +26,14 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".SignInActivity" />
         <activity android:name=".Perfil" />
         <activity android:name=".menu" />
         <activity android:name=".introapp" />
-        <activity android:name=".signup"></activity>
+        <activity android:name=".signup" />
+        <activity android:name=".sitios" />
+        <activity android:name=".health" />
+        <activity android:name=".notificacion" />
+        <activity android:name=".creditos"></activity>
     </application>
 
 </manifest>

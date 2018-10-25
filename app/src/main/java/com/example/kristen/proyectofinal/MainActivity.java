@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         sign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent log = new Intent(MainActivity.this, SignInActivity.class);
+                Intent log = new Intent(MainActivity.this, signup.class);
                 startActivity(log);
             }
         });

@@ -14,8 +14,22 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+        completions."</string>
+
     <string name="log_in">Log In</string>
     <string name="sign_in">SIGN IN</string>
+
+    <!-- Strings related to introapp -->
+    <string name="User">Username</string>
+    <string name="pass">Password</string>
+    <string name="logs">Log In</string>
+    <string name="o">O</string>
+    <string name="Sign">Sign Up</string>
+
+    <!-- Strings related to signup -->
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Ya">Ya tengo una cuenta en Dogtor</string>
+    <string name="logn">Log In</string>
 </resources>
