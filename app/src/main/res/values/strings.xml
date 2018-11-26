@@ -17,7 +17,7 @@
         completions."</string>
 
     <string name="log_in">Log In</string>
-    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in">Sign Up</string>
 
     <!-- Strings related to introapp -->
     <string name="User">Username</string>
@@ -25,6 +25,7 @@
     <string name="logs">Log In</string>
     <string name="o">O</string>
     <string name="Sign">Sign Up</string>
+    <string name="Crea">Crear un usuario nuevo</string>
 
     <!-- Strings related to signup -->
     <string name="Username">Username</string>
@@ -32,4 +33,28 @@
     <string name="SignUp">Sign Up</string>
     <string name="Ya">Ya tengo una cuenta en Dogtor</string>
     <string name="logn">Log In</string>
+
+    <!-- Strings related to menu -->
+    <string name="perfil">Ir a perfil</string>
+    <string name="creditos">Creditos</string>
+    <string name="sitios">Sitios Web</string>
+    <string name="salud">Salud</string>
+    <string name="logoff">Log Off</string>
+    <string name="notificacion">Notificaciones</string>
+
+    <!-- Strings related to websites -->
+    <string name="purina">Ir a website de Purina</string>
+    <string name="marcas">Ir a website de Petsmart</string>
+    <string name="arca">Ir a website de Arca de Noe</string>
+
+    <!-- Strings related to creditos -->
+    <string name="desarollo">Dogtor fue desarollado por:</string>
+    <string name="nombres">Oliver Graf Carné 17190,
+        Kristen Brandt Carné 171482</string>
+
+    <!-- Strings related to perfil -->
+    <string name="comentarios">comentarios hechos</string>
+    <string name="puntaje">Puntaje</string>
+
+
 </resources>

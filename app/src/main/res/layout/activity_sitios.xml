@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".sitios">
 
+    <Button
+        android:id="@+id/purina"
+        android:layout_width="413dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="598dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/purina"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/marcascom"
+        android:layout_width="414dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="504dp"
+        android:text="@string/marcas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/purina" />
+
+    <Button
+        android:id="@+id/arcan"
+        android:layout_width="411dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="416dp"
+        android:text="@string/arca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/marcascom" />
+
 </android.support.constraint.ConstraintLayout>
