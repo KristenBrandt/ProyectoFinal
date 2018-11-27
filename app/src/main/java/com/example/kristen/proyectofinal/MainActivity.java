@@ -12,7 +12,7 @@ import android.widget.EditText;
 import java.io.IOException;
 
 //Botton para hacer log in
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
     public void firstButton() {
         Button login = (Button) findViewById(R.id.login_button);
         login.setOnClickListener(new View.OnClickListener() {
